@@ -1,0 +1,10 @@
+<h1>Banco de Usuarios</h1>
+
+{{#each usuarios}}
+    <p>Nome: {{nome}}</p>
+    <p>Matricula: {{matricula}}</p>
+    <p>Email: {{email}}</p>
+    <p>Data de criação: {{createdAt}}</p>
+    <a href="/deletar/{{id}}"><button>Deletar</button></a>
+    <hr>
+{{/each}}
